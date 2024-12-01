@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6945562B69923C3372B70A0 /* Pods_Bank_Deposit_Bank_DepositUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EA14B35F14D3BB2004DB8E /* Pods_Bank_Deposit_Bank_DepositUITests.framework */; };
+		C89EF226C51964F5CAB4678A /* Pods_Bank_Deposit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA07DC18C6839A95CA773B /* Pods_Bank_Deposit.framework */; };
+		F1C372A3FA10185810911DE4 /* Pods_Bank_DepositTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8589BD78AABDEFFA1882EF5E /* Pods_Bank_DepositTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FB7A0142CFA348400FC89C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB79FF52CFA348000FC89C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB79FFC2CFA348000FC89C4;
+			remoteInfo = "Bank Deposit";
+		};
+		6FB7A01E2CFA348400FC89C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FB79FF52CFA348000FC89C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FB79FFC2CFA348000FC89C4;
+			remoteInfo = "Bank Deposit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0790B94A16DF57760EA9FE4C /* Pods-Bank Deposit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank Deposit.debug.xcconfig"; path = "Target Support Files/Pods-Bank Deposit/Pods-Bank Deposit.debug.xcconfig"; sourceTree = "<group>"; };
+		1D3601D634ED6F22FC326A71 /* Pods-Bank Deposit-Bank DepositUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank Deposit-Bank DepositUITests.debug.xcconfig"; path = "Target Support Files/Pods-Bank Deposit-Bank DepositUITests/Pods-Bank Deposit-Bank DepositUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3CC193C3648A0FA6DD52FB /* Pods-Bank DepositTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank DepositTests.release.xcconfig"; path = "Target Support Files/Pods-Bank DepositTests/Pods-Bank DepositTests.release.xcconfig"; sourceTree = "<group>"; };
+		331D4D5B73BC047BD489EAD4 /* Pods-Bank Deposit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank Deposit.release.xcconfig"; path = "Target Support Files/Pods-Bank Deposit/Pods-Bank Deposit.release.xcconfig"; sourceTree = "<group>"; };
+		37EA14B35F14D3BB2004DB8E /* Pods_Bank_Deposit_Bank_DepositUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bank_Deposit_Bank_DepositUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642A1791277C510253DA83F4 /* Pods-Bank DepositTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank DepositTests.debug.xcconfig"; path = "Target Support Files/Pods-Bank DepositTests/Pods-Bank DepositTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB79FFD2CFA348000FC89C4 /* Bank Deposit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bank Deposit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB7A0132CFA348400FC89C4 /* Bank DepositTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bank DepositTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB7A01D2CFA348400FC89C4 /* Bank DepositUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bank DepositUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DED014A60CEF8C4EF95BA28 /* Pods-Bank Deposit-Bank DepositUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bank Deposit-Bank DepositUITests.release.xcconfig"; path = "Target Support Files/Pods-Bank Deposit-Bank DepositUITests/Pods-Bank Deposit-Bank DepositUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8589BD78AABDEFFA1882EF5E /* Pods_Bank_DepositTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bank_DepositTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAA07DC18C6839A95CA773B /* Pods_Bank_Deposit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bank_Deposit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6FB7A0252CFA348400FC89C4 /* Exceptions for "Bank Deposit" folder in "Bank Deposit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6FB79FFC2CFA348000FC89C4 /* Bank Deposit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6FB79FFF2CFA348000FC89C4 /* Bank Deposit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6FB7A0252CFA348400FC89C4 /* Exceptions for "Bank Deposit" folder in "Bank Deposit" target */,
+			);
+			path = "Bank Deposit";
+			sourceTree = "<group>";
+		};
+		6FB7A0162CFA348400FC89C4 /* Bank DepositTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Bank DepositTests";
+			sourceTree = "<group>";
+		};
+		6FB7A0202CFA348400FC89C4 /* Bank DepositUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Bank DepositUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB79FFA2CFA348000FC89C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89EF226C51964F5CAB4678A /* Pods_Bank_Deposit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB7A0102CFA348400FC89C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C372A3FA10185810911DE4 /* Pods_Bank_DepositTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB7A01A2CFA348400FC89C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6945562B69923C3372B70A0 /* Pods_Bank_Deposit_Bank_DepositUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FB79FF42CFA348000FC89C4 = {
+			isa = PBXGroup;
+			children = (
+				6FB79FFF2CFA348000FC89C4 /* Bank Deposit */,
+				6FB7A0162CFA348400FC89C4 /* Bank DepositTests */,
+				6FB7A0202CFA348400FC89C4 /* Bank DepositUITests */,
+				6FB79FFE2CFA348000FC89C4 /* Products */,
+				705EFCED2A17CB2FC23DE1F6 /* Pods */,
+				EE9331015B9E34AFE0281216 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6FB79FFE2CFA348000FC89C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FB79FFD2CFA348000FC89C4 /* Bank Deposit.app */,
+				6FB7A0132CFA348400FC89C4 /* Bank DepositTests.xctest */,
+				6FB7A01D2CFA348400FC89C4 /* Bank DepositUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		705EFCED2A17CB2FC23DE1F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0790B94A16DF57760EA9FE4C /* Pods-Bank Deposit.debug.xcconfig */,
+				331D4D5B73BC047BD489EAD4 /* Pods-Bank Deposit.release.xcconfig */,
+				1D3601D634ED6F22FC326A71 /* Pods-Bank Deposit-Bank DepositUITests.debug.xcconfig */,
+				7DED014A60CEF8C4EF95BA28 /* Pods-Bank Deposit-Bank DepositUITests.release.xcconfig */,
+				642A1791277C510253DA83F4 /* Pods-Bank DepositTests.debug.xcconfig */,
+				2F3CC193C3648A0FA6DD52FB /* Pods-Bank DepositTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE9331015B9E34AFE0281216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAA07DC18C6839A95CA773B /* Pods_Bank_Deposit.framework */,
+				37EA14B35F14D3BB2004DB8E /* Pods_Bank_Deposit_Bank_DepositUITests.framework */,
+				8589BD78AABDEFFA1882EF5E /* Pods_Bank_DepositTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FB79FFC2CFA348000FC89C4 /* Bank Deposit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB7A0262CFA348400FC89C4 /* Build configuration list for PBXNativeTarget "Bank Deposit" */;
+			buildPhases = (
+				5A812CEFF6F16C3EDC93B2F9 /* [CP] Check Pods Manifest.lock */,
+				6FB79FF92CFA348000FC89C4 /* Sources */,
+				6FB79FFA2CFA348000FC89C4 /* Frameworks */,
+				6FB79FFB2CFA348000FC89C4 /* Resources */,
+				C2CDFD6B86F6C43788F544D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6FB79FFF2CFA348000FC89C4 /* Bank Deposit */,
+			);
+			name = "Bank Deposit";
+			productName = "Bank Deposit";
+			productReference = 6FB79FFD2CFA348000FC89C4 /* Bank Deposit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FB7A0122CFA348400FC89C4 /* Bank DepositTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB7A02B2CFA348400FC89C4 /* Build configuration list for PBXNativeTarget "Bank DepositTests" */;
+			buildPhases = (
+				1344672C9AB08649FEFDD53B /* [CP] Check Pods Manifest.lock */,
+				6FB7A00F2CFA348400FC89C4 /* Sources */,
+				6FB7A0102CFA348400FC89C4 /* Frameworks */,
+				6FB7A0112CFA348400FC89C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB7A0152CFA348400FC89C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FB7A0162CFA348400FC89C4 /* Bank DepositTests */,
+			);
+			name = "Bank DepositTests";
+			productName = "Bank DepositTests";
+			productReference = 6FB7A0132CFA348400FC89C4 /* Bank DepositTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FB7A01C2CFA348400FC89C4 /* Bank DepositUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FB7A02E2CFA348400FC89C4 /* Build configuration list for PBXNativeTarget "Bank DepositUITests" */;
+			buildPhases = (
+				46C629F4B29C67B3A85D8286 /* [CP] Check Pods Manifest.lock */,
+				6FB7A0192CFA348400FC89C4 /* Sources */,
+				6FB7A01A2CFA348400FC89C4 /* Frameworks */,
+				6FB7A01B2CFA348400FC89C4 /* Resources */,
+				0C05282B827755DD5355BB5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FB7A01F2CFA348400FC89C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6FB7A0202CFA348400FC89C4 /* Bank DepositUITests */,
+			);
+			name = "Bank DepositUITests";
+			productName = "Bank DepositUITests";
+			productReference = 6FB7A01D2CFA348400FC89C4 /* Bank DepositUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FB79FF52CFA348000FC89C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					6FB79FFC2CFA348000FC89C4 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					6FB7A0122CFA348400FC89C4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6FB79FFC2CFA348000FC89C4;
+					};
+					6FB7A01C2CFA348400FC89C4 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 6FB79FFC2CFA348000FC89C4;
+					};
+				};
+			};
+			buildConfigurationList = 6FB79FF82CFA348000FC89C4 /* Build configuration list for PBXProject "Bank Deposit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FB79FF42CFA348000FC89C4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6FB79FFE2CFA348000FC89C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FB79FFC2CFA348000FC89C4 /* Bank Deposit */,
+				6FB7A0122CFA348400FC89C4 /* Bank DepositTests */,
+				6FB7A01C2CFA348400FC89C4 /* Bank DepositUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FB79FFB2CFA348000FC89C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB7A0112CFA348400FC89C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB7A01B2CFA348400FC89C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C05282B827755DD5355BB5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bank Deposit-Bank DepositUITests/Pods-Bank Deposit-Bank DepositUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bank Deposit-Bank DepositUITests/Pods-Bank Deposit-Bank DepositUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bank Deposit-Bank DepositUITests/Pods-Bank Deposit-Bank DepositUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1344672C9AB08649FEFDD53B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bank DepositTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46C629F4B29C67B3A85D8286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bank Deposit-Bank DepositUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A812CEFF6F16C3EDC93B2F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bank Deposit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CDFD6B86F6C43788F544D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bank Deposit/Pods-Bank Deposit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bank Deposit/Pods-Bank Deposit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bank Deposit/Pods-Bank Deposit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FB79FF92CFA348000FC89C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB7A00F2CFA348400FC89C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB7A0192CFA348400FC89C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FB7A0152CFA348400FC89C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB79FFC2CFA348000FC89C4 /* Bank Deposit */;
+			targetProxy = 6FB7A0142CFA348400FC89C4 /* PBXContainerItemProxy */;
+		};
+		6FB7A01F2CFA348400FC89C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FB79FFC2CFA348000FC89C4 /* Bank Deposit */;
+			targetProxy = 6FB7A01E2CFA348400FC89C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FB7A0272CFA348400FC89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0790B94A16DF57760EA9FE4C /* Pods-Bank Deposit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bank Deposit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sdu.Bank-Deposit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FB7A0282CFA348400FC89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331D4D5B73BC047BD489EAD4 /* Pods-Bank Deposit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Bank Deposit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sdu.Bank-Deposit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6FB7A0292CFA348400FC89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FB7A02A2CFA348400FC89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FB7A02C2CFA348400FC89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642A1791277C510253DA83F4 /* Pods-Bank DepositTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sdu.Bank-DepositTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bank Deposit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bank Deposit";
+			};
+			name = Debug;
+		};
+		6FB7A02D2CFA348400FC89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3CC193C3648A0FA6DD52FB /* Pods-Bank DepositTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sdu.Bank-DepositTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bank Deposit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bank Deposit";
+			};
+			name = Release;
+		};
+		6FB7A02F2CFA348400FC89C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3601D634ED6F22FC326A71 /* Pods-Bank Deposit-Bank DepositUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sdu.Bank-DepositUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bank Deposit";
+			};
+			name = Debug;
+		};
+		6FB7A0302CFA348400FC89C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DED014A60CEF8C4EF95BA28 /* Pods-Bank Deposit-Bank DepositUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sdu.Bank-DepositUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bank Deposit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FB79FF82CFA348000FC89C4 /* Build configuration list for PBXProject "Bank Deposit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7A0292CFA348400FC89C4 /* Debug */,
+				6FB7A02A2CFA348400FC89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB7A0262CFA348400FC89C4 /* Build configuration list for PBXNativeTarget "Bank Deposit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7A0272CFA348400FC89C4 /* Debug */,
+				6FB7A0282CFA348400FC89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB7A02B2CFA348400FC89C4 /* Build configuration list for PBXNativeTarget "Bank DepositTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7A02C2CFA348400FC89C4 /* Debug */,
+				6FB7A02D2CFA348400FC89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FB7A02E2CFA348400FC89C4 /* Build configuration list for PBXNativeTarget "Bank DepositUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB7A02F2CFA348400FC89C4 /* Debug */,
+				6FB7A0302CFA348400FC89C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FB79FF52CFA348000FC89C4 /* Project object */;
+}
